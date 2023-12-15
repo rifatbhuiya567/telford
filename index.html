@@ -41,13 +41,13 @@
     <div class="container">
       <div class="container-padding">
         <div class="row justify-content-between align-items-center">
-          <div class="col-lg-3">
+          <div class="col-lg-4">
             <a href="./index.html">
-              <img src="images/logo.png" class="w-100" alt="main logo" />
+              <img src="images/logo.png" class="web-logo" alt="main logo" />
             </a>
           </div>
-          <div class="col-lg-3 text-end header-links">
-            <ul class="d-flex justify-content-end gap-2">
+          <div class="col-lg-4 text-end header-links">
+            <ul class="d-flex justify-content-end gap-2 align-items-center">
               <li>
                 <a href="tel:01952240222" class="tel">01952 240 222</a>
               </li>
@@ -57,7 +57,7 @@
                 </a>
               </li>
             </ul>
-            <a href="mailto:sales@telford-blinds.co.uk">
+            <a href="mailto:sales@telford-blinds.co.uk" class="h-mail">
               sales@telford-blinds.co.uk
             </a>
           </div>
@@ -126,7 +126,7 @@
           <div class="col-6">
             <div class="logo">
               <a href="./index.html">
-                <img src="images/logo.png" class="w-100" alt="logo" />
+                <img src="images/logo.png" class="mobile-logo" alt="logo" />
               </a>
             </div>
           </div>
@@ -450,6 +450,8 @@
 
   <!-- Home Testimonial Start -->
   <section class="home-testimonial">
+    <i class="bi bi-chevron-left t-prev"></i>
+    <i class="bi bi-chevron-right t-next"></i>
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -590,6 +592,12 @@
   </footer>
   <!-- Footer End -->
 
+  <!-- Back to Top Start -->
+  <div class="btt">
+    <i class="fa-solid fa-arrow-up"></i>
+  </div>
+  <!-- Back to Top End -->
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Bootstrap 5.3 -->
 
@@ -601,6 +609,92 @@
 
   <script src="js/wow.min.js"></script>
   <!-- WOW -->
+
+  <script>
+    const mainSlider = () => {
+      var myBannerSlider = $(".banner-slider");
+      myBannerSlider.on("init", function (e, slick) {
+        var $firstAnimatingElements = $(".banner-content:first-child").find(
+          "[data-animation]"
+        );
+        doAnimations($firstAnimatingElements);
+      });
+
+      myBannerSlider.on(
+        "beforeChange",
+        function (e, slick, currentSlide, nextSlide) {
+          var $animatingElements = $(
+            '.banner-content[data-slick-index="' + nextSlide + '"]'
+          ).find("[data-animation]");
+          doAnimations($animatingElements);
+        }
+      );
+
+      myBannerSlider.slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+        speed: 500,
+        dots: true,
+        fade: true,
+        prevArrow: ".prev",
+        nextArrow: ".next",
+      });
+
+      function doAnimations(elements) {
+        var animationEndEvents =
+          "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
+        elements.each(function () {
+          var $this = $(this);
+          var $animationDelay = $this.data("delay");
+          var $animationType = "animated " + $this.data("animation");
+          $this.css({
+            "animation-delay": $animationDelay,
+            "-webkit-animation-delay": $animationDelay,
+          });
+          $this.addClass($animationType).one(animationEndEvents, function () {
+            $this.removeClass($animationType);
+          });
+        });
+      }
+    };
+    mainSlider();
+    // Banner Slide
+
+    const testimonialSlider = () => {
+      var slider = $(".testimonial-slider");
+
+      slider.slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+        speed: 500,
+        dots: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        arrows: true,
+        prevArrow: ".t-prev",
+        nextArrow: ".t-next",
+        responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    };
+    testimonialSlider();
+    // Testimonial Slide
+  </script>
+  <!-- Slider Code -->
 
   <script src="js/script.js"></script>
   <!-- Main Script Sheet -->
