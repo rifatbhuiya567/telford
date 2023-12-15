@@ -1,0 +1,634 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  :root {
+    --h1: 29px;
+    --h2: 26px;
+    --h3: 24px;
+    --h4: 21px;
+    --h5: 18px;
+    --h6: 17px;
+    --large: 17px;
+    --base: 15px;
+    --small: 14px;
+  }
+
+  .banner-content {
+    height: 440px;
+  }
+
+  .service-banner {
+    height: 440px;
+  }
+
+  .colour-swatches .range-colour {
+    height: 140px;
+  }
+
+  .colour-swatches .range-box-content {
+    padding: 16px 20px;
+    height: 140px;
+  }
+
+  .colour-swatches .range-box-content p {
+    font-size: var(--small);
+  }
+
+  .home-testimonial .t-prev {
+    left: 4px;
+  }
+
+  .home-testimonial .t-next {
+    right: 4px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  :root {
+    --h1: 28px;
+    --h2: 25px;
+    --h3: 23px;
+    --h4: 20px;
+    --h5: 18px;
+    --h6: 17px;
+    --large: 17px;
+    --base: 15px;
+    --small: 14px;
+  }
+
+  .banner-content {
+    height: 440px;
+  }
+
+  .home-banner .slick-dots li button {
+    height: 10px;
+    width: 10px;
+  }
+
+  .home-banner .prev, .next {
+    font-size: 28px;
+  }
+
+  .home-card .mt-5 {
+    margin-top: 1.5rem !important;
+  }
+
+  .about-content .top .top-left {
+    margin-bottom: 16px;
+  }
+
+  .page-heading .img {
+    display: none;
+  }
+
+  .product .page-heading .text {
+    width: 100%;
+  }
+
+  .product .page-brand img {
+    width: 120px;
+  }
+
+  .product .page-card .container-padding {
+    padding: 0 0;
+  }
+
+  .service-banner {
+    height: 440px;
+  }
+
+  .services .services-left .img {
+    margin-top: 0px;
+  }
+
+  .services .services-right .chas-logo img {
+    display: block;
+    text-align: center;
+  }
+
+  .colour-swatches .container-padding {
+    padding: 0 0;
+  }
+
+  .colour-swatches .gap {
+    gap: 16px;
+  }
+
+  .colour-swatches .range-colour {
+    height: 140px;
+  }
+
+  .colour-swatches .range-box-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .terms-privacy .m-top {
+    margin-top: 20px;
+  }
+
+  .map iframe {
+    height: 300px;
+  }
+
+  .contact .container-padding {
+    padding: 0 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  :root {
+    --h1: 26px;
+    --h2: 23px;
+    --h3: 21px;
+    --h4: 19px;
+    --h5: 17px;
+    --h6: 16px;
+    --large: 16px;
+    --base: 15px;
+    --small: 14px;
+  }
+
+  .banner-content {
+    height: 400px;
+  }
+
+  .home-banner .slick-dots {
+    display: none !important;  
+  }
+
+  .home-banner .prev, .next {
+    font-size: 24px;
+  }
+
+  .banner-text {
+    width: 70%;
+  }
+
+  .home-welcome .container-padding {
+    padding: 0 0;
+  }
+
+  .home-card .mt-5 {
+    margin-top: 1.5rem !important;
+  }
+
+  .about-content {
+    padding: 48px 0;
+  }
+
+  .about-content .container-padding {
+    padding: 0 0;
+  }
+
+  .about-content .top .top-left {
+    margin-bottom: 16px;
+  }
+
+  .page-heading .img {
+    display: none;
+  }
+
+  .product .page-heading .text {
+    width: 100%;
+  }
+
+  .product .page-brand img {
+    width: 80px;
+  }
+
+  .product .page-card .container-padding {
+    padding: 0 0;
+  }
+
+  .page-card .card-text h2 {
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+
+  .page-card .card-text p {
+    font-size: var(--small);
+  }
+
+  .service-banner {
+    height: 320px;
+  }
+
+  .service-banner-text {
+    width: 70%;
+  }
+
+  .services .services-left .img {
+    margin-top: 0px;
+  }
+
+  .services .services-right .chas-logo img {
+    display: block;
+    text-align: center;
+  }
+
+  .colour-swatches .container-padding {
+    padding: 0 0;
+  }
+
+  .colour-swatches .gap {
+    gap: 8px;
+  }
+
+  .colour-swatches .colour-title p {
+    font-size: 12px;
+  }
+
+  .colour-swatches .range-colour {
+    height: 140px;
+  }
+
+  .colour-swatches .range-box {
+    width: 31%;
+    margin: 12px 1%;
+  }
+
+  .colour-swatches .range-box-content {
+    width: 100%;
+    height: auto;
+    margin: 12px 1%;
+  }
+
+  .colour-swatches .range-box-content p {
+    font-size: var(--small);
+  }
+
+  .terms-privacy .m-top {
+    margin-top: 20px;
+  }
+
+  .terms-privacy p {
+    margin: 8px 0 20px;
+  }
+
+  .terms-privacy h5 {
+    margin-bottom: 12px;
+  }
+
+  .map iframe {
+    height: 300px;
+  }
+
+  .contact .container-padding {
+    padding: 0 0;
+  }
+
+  .contact p {
+    font-size: var(--small);
+  }
+
+  .contact ul .tel {
+    font-size: var(--large);
+  }
+
+  .contact ul .mail {
+    font-size: var(--small);
+  }
+
+  .contact address {
+    font-size: var(--small);
+  }
+
+  .top-left .footer-logo {
+    width: 90%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .main-header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+
+  .home-testimonial .t-prev {
+    left: 20px;
+  }
+
+  .home-testimonial .t-next {
+    right: 20px;
+  }
+
+  .m-r-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .m-mt {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  :root {
+    --h1: 24px;
+    --h2: 20px;
+    --h3: 18px;
+    --h4: 17px;
+    --h5: 16px;
+    --h6: 15px;
+    --large: 15px;
+    --base: 14px;
+    --small: 13px;
+  }
+
+  .container-padding {
+    padding: 0 0 !important;
+  }
+
+  .offcanvas,
+  .offcanvas-lg,
+  .offcanvas-md,
+  .offcanvas-sm,
+  .offcanvas-xl,
+  .offcanvas-xxl {
+    --bs-offcanvas-width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .top-left .footer-logo {
+    width: 180px;
+  }
+
+  .top-left ul {
+    margin-top: 12px !important;
+  }
+
+  .top-left ul li {
+    display: inline-block;
+    margin: 0 4px;
+  }
+
+  footer .nav-list li {
+    display: inline-block;
+    margin-right: 4px;
+  }
+
+  footer .top-left .tel {
+    font-size: 16px;
+  }
+
+  footer .footer-top .row {
+    justify-content: center !important;
+    margin-top: 12px !important;
+  }
+
+  .top-center address {
+    text-align: center;
+    font-size: var(--small);
+  }
+
+  .top-center address br {
+    display: none;
+  }
+
+  footer .copy {
+    margin-top: 12px;
+  }
+
+  footer .copy br {
+    display: none;
+  }
+
+  .banner-content {
+    height: 320px;
+  }
+
+  .home-banner .slick-dots {
+    display: none !important;  
+  }
+
+  .home-banner .prev, .next {
+    font-size: 24px;
+  }
+
+  .home-banner .prev {
+    left: 12px;
+  }
+  
+  .home-banner .next {
+    right: 12px;
+  }
+
+  .banner-text {
+    width: 80%;
+    padding: 12px 16px;
+  }
+
+  .home-welcome {
+    padding: 24px 0;
+  }
+
+  .home-welcome p {
+    font-size: var(--base);
+    margin: 8px 0;
+  }
+
+  .home-card .mt-5 {
+    margin-top: 1.5rem !important;
+  }
+
+  .home-card .card-content .text p {
+    height: 94px;
+  }
+
+  .home-testimonial {
+    padding: 40px 0 64px;
+  }
+
+  .about-content {
+    padding: 24px 0;
+  }
+
+  .about-content .inner-bg {
+    padding: 12px 28px;
+  }
+
+  .about-content .top .top-left {
+    margin-bottom: 16px;
+    padding: 0 16px;
+  }
+
+  .about-content .bottom-left-top .mt-5 {
+    margin-top: 12px !important;
+  }
+
+  .about-content .bottom-right-top h4 {
+    padding: 12px 6px;
+  }
+
+  .page-heading .img {
+    display: none;
+  }
+
+  .product .page-heading .text {
+    width: 100%;
+    padding: 16px 20px;
+  }
+
+  .product .page-brand img {
+    width: 80px;
+  }
+
+  .page-card .card-text h2 {
+    font-weight: 500;
+    margin-bottom: 6px;
+    font-size: var(--h4);
+  }
+
+  .page-card .card-text p {
+    font-size: var(--small);
+  }
+
+  .page-card .col-8,
+  .page-card .col-4 {
+    margin-bottom: 16px;
+    padding: 0 6px;
+  }
+
+  .page-card .col-8:last-child,
+  .page-card .col-4:last-child {
+    margin-bottom: 0;
+  }
+
+  .service-banner {
+    height: 200px;
+  }
+
+  .services-left .my-4 {
+    margin: 12px 0 !important;
+  }
+
+  .window-blind .mt-5 {
+    margin-top: 16px !important;
+  }
+
+  .service-banner-text {
+    width: 70%;
+    padding: 12px 16px;
+  }
+
+  .services {
+    padding: 24px 0;
+  }
+  
+  .services .services-left .img {
+    margin-top: 0px;
+  }
+
+  .services .services-right .chas-logo img {
+    display: block;
+    text-align: center;
+    width: 120px;
+  }
+
+  .colour-swatches {
+    padding: 24px 0;
+  }
+
+  .colour-swatches .gap {
+    gap: 8px;
+  }
+
+  .colour-swatches .mt-5 {
+    margin-top: 16px !important;
+  }
+
+  .colour-swatches .colour-title p {
+    font-size: 12px;
+  }
+
+  .colour-swatches .range-colour {
+    height: 140px;
+  }
+
+  .colour-swatches .range .d-flex {
+    flex-wrap: wrap;
+  }
+
+  .colour-swatches .range-box {
+    width: 31%;
+    margin: 12px 1%;
+  }
+
+  .colour-swatches .range-box-content {
+    width: 100%;
+    margin: 12px 1%;
+    height: auto;
+  }
+
+  .terms-privacy {
+    padding: 24px 0;
+  }
+
+  .terms-privacy .m-top {
+    margin-top: 20px;
+  }
+
+  .terms-privacy p {
+    margin: 6px 0 16px;
+  }
+
+  .terms-privacy h5 {
+    margin-bottom: 8px;
+  }
+
+  .map iframe {
+    height: 160px;
+  }
+
+  .contact {
+    padding: 24px 0;
+  }
+
+  .contact p {
+    font-size: var(--small);
+  }
+
+  .contact ul {
+    margin: 8px 0;
+  }
+
+  .contact ul .tel {
+    font-size: var(--large);
+  }
+
+  .contact ul .mail {
+    font-size: var(--small);
+  }
+
+  .contact .mt-4 {
+    margin-top: 12px !important;
+  }
+
+  .contact address {
+    font-size: var(--small);
+  }
+
+  .contact address br {
+    display: none;
+  }
+
+  .contact form {
+    margin-top: 16px;
+  }
+
+  .home-testimonial .t-prev,
+  .home-testimonial .t-next {
+    display: none !important;
+  }
+
+  .btt i {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    font-size: 18px;
+  }
+}
